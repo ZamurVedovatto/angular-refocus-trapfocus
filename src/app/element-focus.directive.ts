@@ -1,4 +1,4 @@
-import { Directive, HostListener, HostBinding } from '@angular/core';
+import { Directive, HostListener } from '@angular/core';
 import { PageService } from './page.service';
 
 @Directive({
