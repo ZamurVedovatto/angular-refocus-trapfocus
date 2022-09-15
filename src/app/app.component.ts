@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { BsModalService, BsModalRef, ModalOptions } from 'ngx-bootstrap/modal';
-import { PageService } from './page.service'
+import { PageService } from './services/page.service'
 
 @Component({
   selector: 'app-root',

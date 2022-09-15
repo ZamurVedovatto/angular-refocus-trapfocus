@@ -1,5 +1,5 @@
 import { Directive, HostListener } from '@angular/core';
-import { PageService } from './page.service';
+import { PageService } from './../services/page.service';
 
 @Directive({
   selector: '[elementFocus]'

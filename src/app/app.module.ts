@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
-import { ElementFocusDirective } from './element-focus.directive';
-import { PageService } from './page.service';
-import { TrapFocusDirective } from './trap-focus.directive';
+import { ElementFocusDirective } from './directives/element-focus.directive';
+import { TrapFocusDirective } from './directives/trap-focus.directive';
+import { PageService } from './services/page.service';
 
 
 @NgModule({
